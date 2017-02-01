@@ -14,3 +14,6 @@ class SmallestMultiple
     num
   end
 end
+
+p SmallestMultiple.new.find_smallest_multiple
+#=> 232792560

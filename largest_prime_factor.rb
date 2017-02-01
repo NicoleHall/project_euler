@@ -4,3 +4,4 @@
 require 'prime'
 
 p Prime.prime_division(600851475143).map { |pair| pair.first}.sort.last
+#=> 6857

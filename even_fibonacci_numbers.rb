@@ -28,3 +28,6 @@ class EvenFibNumbers
     @sum
   end
 end
+
+p EvenFibNumbers.new(4_000_000).find_sum_of_fib_evens_only
+#=>4613732

@@ -11,8 +11,6 @@ end
 
 class LargestPalindromeProduct
 
-  attr_reader :array_of_all_3_digit_numbers
-
   def array_of_all_3_digit_numbers
     (100..999).to_a
   end
@@ -29,4 +27,5 @@ class LargestPalindromeProduct
 
 end
 
- 
+p LargestPalindromeProduct.new.find_largest_palindromic_permutation
+#=> 906609
